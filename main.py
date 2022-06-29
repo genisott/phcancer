@@ -6,7 +6,7 @@ from functions import *
 # Read the expression file directly exported form the R downloader.
 # Auxiliar file attached.
 
-ctype = "GBM"
+ctype = "ACC"
 exp = pd.read_csv("expression_"+ctype+".txt").transpose() # Samples x genes
 
 #Subset genes from the L1000 genes.
